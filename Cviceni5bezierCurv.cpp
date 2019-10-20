@@ -54,14 +54,14 @@ int main()
 					
 					if (jeFull) // když je fullscreen, tak zmenši do okna 
 					{
-						Aplikace.create(sf::VideoMode(800, 600), "Cviceni 4 - udalosti", sf::Style::Default);
+						Aplikace.create(sf::VideoMode(800, 600), "Cviceni 5 - Bezier curves", sf::Style::Default);
 						nastavGL.obnov(800,600);
 						jeFull = false;
 					}
 					else // když není fullscreen, tak zvětši na celou obrazovku 
 					{
 						sf::VideoMode videoMod(sf::VideoMode::getFullscreenModes()[0]);
-						Aplikace.create(sf::VideoMode(videoMod), "Cviceni 4 - udalosti", sf::Style::Fullscreen);
+						Aplikace.create(sf::VideoMode(videoMod), "Cviceni 5 - Bezier curves", sf::Style::Fullscreen);
 						nastavGL.obnov(videoMod.width, videoMod.height);
 						jeFull = true;
 						
