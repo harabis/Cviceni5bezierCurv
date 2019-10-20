@@ -152,6 +152,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Cviceni5bezierCurv.cpp" />
+    <ClCompile Include="kresliObjekt.cpp" />
+    <ClCompile Include="nastaveniGL.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kresliObjekt.h" />
+    <ClInclude Include="nastaveniGL.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
